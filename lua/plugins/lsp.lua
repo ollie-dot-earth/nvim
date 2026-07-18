@@ -20,6 +20,7 @@ require("mason").setup({})
 -- lsp setup ---------------------------------------
 vim.lsp.enable({
     "gleam",
+    "elp",
     "lua_ls",
 
     -- python
@@ -36,7 +37,6 @@ vim.lsp.enable({
     "prettier",
     "biome",
     "cssls",
-    "tailwindcss",
 
     -- rust
     "rust_analyzer",
