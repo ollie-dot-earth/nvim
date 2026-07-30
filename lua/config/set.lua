@@ -13,7 +13,7 @@ vim.opt.signcolumn = "yes"
 -- limit text width to 80 by default
 vim.opt.textwidth = 80
 -- add the column at textwidth '+0'
-vim.opt.colorcolumn = "+0"
+vim.opt.colorcolumn = "+1"
 
 vim.opt.smartindent = true
 
